@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- --------- UNICONS ---------- -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!-- --------- CSS ---------- -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="css2/products.css">
+  <!-- <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <link rel="stylesheet" href="css2/main.css"> -->
+
+  <!-- --------- FAVICON ---------- -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+
+
+  <title>Portfolio | Karthik GB</title>
+
+
+</head>
+
+<body">
+  <div class="container">
+    <!-- --------------- HEADER --------------- -->
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-name">Hey there!</p>
+        <!-- <span>Month</span> -->
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="#home" class="nav-link active-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#about" class="nav-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#product1" class="nav-link">Projects</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+      <!-- -------------- FEATURED BOX ---------------- -->
+      <section class="featured-box" id="home">
+        <div class="featured-text">
+          <div class="featured-text-card">
+            <span>KARTHIK G BAMMANAL</span>
+          </div>
+          <div class="featured-name">
+            <p>I'm <span class="typedText"></span></p>
+          </div>
+          <div class="featured-text-info">
+            <p>Experienced frontend developer passionate about creating visually appealing, user-friendly websites.
+            </p>
+          </div>
+          <div id="featured-text-btn" class="featured-text-btn" >
+            <button class="btn blue-btn" onclick="scrollToContact()">Hire Me</button>
+            <a href="assets/pdf/KarthikgbCV.pdf" class="btn" download="KarthikgbCV.pdf">Download CV <i class="uil uil-file-alt"></i> </a>
+          </div>
+          <div class="social_icons">
+            
+            <div class="icon">
+              <a href="https://www.linkedin.com/in/karthik-g-b-87241028b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+               target="_blank" rel="noopener noreferrer">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+            </div>
+            
+            <div class="icon">
+              <a href="https://github.com/karthik1212github?tab=repositories" target="_blank" rel="noopener noreferrer">
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="featured-image">
+          <div class="image">
+            <img src="img/frontend.avif" alt="avatar">
+          </div>
+        </div>
+        <div class="scroll-icon-box">
+          <a href="#about" class="scroll-btn">
+            <i class="uil uil-mouse-alt"></i>
+            <p>Scroll Down</p>
+          </a>
+        </div>
+
+      </section>
+      <!-- -------------- ABOUT BOX ---------------- -->
+      <section class="section" id="about">
+        <div class="top-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="about-info">
+              <h3>Introduction</h3>
+              <p>I am proficient in HTML, CSS, and JavaScript, as well as various modern frameworks and 
+                libraries, enabling me to create interactive features.
+                <!-- Additionally, I have experirence working with content management systems (CMS) like
+                       WordPress. -->
+              </p>
+              <div class="about-btn">
+               <a href="assets/pdf/KarthikgbCV.pdf" download="KarthikgbCV.pdf"> Download CV <i class="uil uil-import"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skills-box">
+              <div class="skills-header">
+                <h3>Frontend</h3>
+              </div>
+              <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>ReactJS</span>
+                <span>Selenium</span>
+                <span>Angular</span>
+              </div>
+            </div>
+            <div class="skills-box">
+              <div class="skills-header">
+                <h3>Backend</h3>
+              </div>
+              <div class="skills-list">
+                <!-- <span>PHP</span> -->
+                <span>JAVA</span>
+                <span>Python</span>
+                <!-- <span>C++</span> -->
+              </div>
+            </div>
+            <div class="skills-box">
+              <div class="skills-header">
+                <h3>Database</h3>
+              </div>
+              <div class="skills-list">
+                <span>Oracle-SQL</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------- PROJECT BOX ---------------- -->
+
+      <section id="product1" class="section-p1">
+        <div class="top-header">
+          <h1>Projects</h1>
+        </div>
+
+        <div class="pro-container">
+          <div class="pro">
+            <img src="img/front_end.jpg" alt="">
+            <div class="des">
+              <!-- <span>adidas</span> -->
+              <h5><strong>E-Commerce Website</strong></h5>
+              <p>"Designed and developed a website for gppaintingworks Implemented responsive design to ensure optimal
+                user experience on various devices.Utilized HTML, CSS, and JavaScript to create a visually appealing 
+                and functional website."</p>
+
+            </div>
+            <button class="button"><a href="https://gppaintingworks.netlify.app/"> More</a></button>
+          </div>
+
+          <div class="pro">
+            <img src="img/password.jpg" alt="">
+            <div class="des">
+              <!-- <span>adidas</span> -->
+              <h5><strong>JavaScript Project</strong></h5>
+              <p>"I designed a random password generator using HTML, CSS, and JavaScript. This project demonstrates my
+                skills in frontend development and my ability to create functional web applications."</p>
+            </div>
+            <button class="button"><a href="services.html"> More</a></button>
+
+
+
+
+          </div>
+
+          <div class="pro">
+            <img src="img/ds.avif" alt="">
+            <div class="des">
+              <!-- <span>adidas</span> -->
+              <h5> <strong>Java Project on Implementation of Data Structures:</strong></h5>
+              <p>"Here's a concise description of project using Java:
+                The main agenda of the project is to showcase the operations and working of different linear Data
+                Structures."</p>
+            </div>
+            <button class="button"><a href="services.html"> More</a></button>
+          </div>
+
+          <div class="pro" >
+            <img src="img/Selenium-Testing.jpg" alt="">
+            <div class="des">
+              <!-- <span>adidas</span> -->
+              <h5> <strong>Automation:Selenium Project:</strong></h5>
+              <p>"Automating Amazon website(Webapplications) until UPI/Payment Gateway."</p>
+            </div>
+            <button class="button"><a href="services.html"> More</a></button>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- -------------- CONTACT BOX ---------------- -->
+
+      <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Get in touch</h1>
+          <span>Do you have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+              <p><i class="uil uil-envelope"></i> Email: karthikgbammanal200@gmail.com</p>
+              <p><i class="uil uil-phone"></i> Ph No: +917019171756</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-control">
+              <div class="form-inputs">
+                <input type="text" class="input-field" placeholder="Name">
+                <input type="text" class="input-field" placeholder="Email">
+              </div>
+              <div class="text-area">
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn">Send <i class="uil uil-message"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hire">
+        <div class="hire-btn">
+          <button class="btn blue-btn" onclick="scrollToContact()">Hire Me</button>
+        </div>
+      </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <div class="top-footer">
+        <p>K-Front</p>
+      </div>
+      <div class="middle-footer">
+        <ul class="footer-menu">
+          <li class="footer_menu_list">
+            <a href="#home">Home</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#about">About</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#product1">Projects</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-social-icons">
+
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/karthik-g-b-87241028b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+           target="_blank" rel="noopener noreferrer">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+        </div>
+        <div class="icon">
+          <a href="https://github.com/karthik1212github?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <i class="uil uil-github-alt"></i>
+          </a>
+        </div>
+
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">K-Front</a> - All rights reserved</p>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+
+  <!-- ----- TYPING JS Link ----- -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- ----- SCROLL REVEAL JS Link----- -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- ----- MAIN JS ----- -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    function scrollToContact() {
+      const contactSection = document.getElementById('contact');
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+<script>
+  function scrollToContact() {
+    const contactSection = document.getElementById('contact');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+
+</body>
+
+</html>
